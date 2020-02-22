@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+# Store the data in mysql
+
 import pymysql
 
 with open('names', 'r') as file:

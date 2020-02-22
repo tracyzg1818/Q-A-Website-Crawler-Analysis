@@ -1,6 +1,7 @@
+# -*- coding: utf-8 -*-
 # Scrapy settings for zhihuUserInfo project
 # For simplicity, this file contains only settings considered important or
-# commonly used. You can find more settings consulting the documentation:
+# commonly used. More settings consulting the documentation:
 #
 #     https://doc.scrapy.org/en/latest/topics/settings.html
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html

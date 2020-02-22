@@ -1,6 +1,8 @@
-# Define your item pipelines here
-# Don't forget to add your pipeline to the ITEM_PIPELINES setting
+# -*- coding: utf-8 -*-
+# Define item pipelines
+# Don't forget to add the pipeline to the ITEM_PIPELINES setting
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
+
 import pymysql
 import datetime
 

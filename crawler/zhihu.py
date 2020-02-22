@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# Main crawler
+
 import scrapy
 from scrapy import Request
 import json

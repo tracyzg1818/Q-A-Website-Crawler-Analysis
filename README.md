@@ -41,7 +41,7 @@ This means our conclusion may have selection bias, that is:
 ## Dataset Overview
 This project crawled users who followed the topic *The Three-Body* on Zhihu (the largest Q&A website in China) and stored data in a MySQL database. The head of the dataset looks like this:
 
-![](https://github.com/tracyzg1818/Q-A-Website-Crawler-Analysis/blob/master/crawler/User%20dataset%20head.png?raw=true)
+![Head of the dataset](https://github.com/tracyzg1818/Q-A-Website-Crawler-Analysis/blob/master/Analysis/User%20dataset%20head.png?raw=true)
 
 There were two types of features in the dataset:
 * Numerical features  

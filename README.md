@@ -10,8 +10,9 @@ The project is created with:
 * Project Background
 * Conclusions
 * Dataset Overview
-* K-Mean Clustering
+* K-Means Clustering
 * Text Analysis
+* Potential Improvements for the Project
 
 ## Project Background
 The project was built in a consulting setting. A consulting firm was about to start a project for a client in the media & entertainment industry who planned to launch a new business targeting customers interested in a science fiction topic called *The Three-Body*. The consultants hoped to have a preliminary understanding of the profiles of potential customers. Therefore, a crawler was built to provide some input for the consultants.
@@ -65,8 +66,8 @@ Text features include:
 * major
 * industry
 
-## K-Mean Clustering
-The point of doing K-mean clustering is to have a rough sense of what segmentation of users do we have in the dataset, and what proportion of each segment is. Specifically, I did 2-dimensional K-means clustering by follower vs answer, voted vs follower, voteup vs following, voteup vs favorited, and thanked vs favorited.
+## K-Means Clustering
+The point of doing K-means clustering is to have a rough sense of what segmentation of users do we have in the dataset, and what proportion of each segment is. Specifically, I did 2-dimensional K-means clustering by follower vs answer, voted vs follower, voteup vs following, voteup vs favorited, and thanked vs favorited.
 
 #### Criteria for choosing K - Example
 From answer & follower perspective, set K equals to 3 assuming that the group could be categorized into 3 types:

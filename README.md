@@ -41,7 +41,9 @@ This means our conclusion may have selection bias, that is:
 ## Dataset Overview
 This project crawled users who followed the topic *The Three-Body* on Zhihu (the largest Q&A website in China) and stored data in a MySQL database. The head of the dataset looks like this:
 
-![Head of the dataset](https://github.com/tracyzg1818/Q-A-Website-Crawler-Analysis/blob/master/Analysis/User%20dataset%20head.png?raw=true)
+<p align="center">
+  <img src="https://github.com/tracyzg1818/Q-A-Website-Crawler-Analysis/blob/master/Analysis/User%20dataset%20head.png?raw=true" alt="dataset head"/>
+</p>
 
 There were two types of features in the dataset:
 * Numerical features  
@@ -74,17 +76,24 @@ From answer & follower perspective, set K equals to 3 assuming that the group co
 
 Also tried K = 4, which didn't make too much difference. Results are shown below:
 
-![Clustering result](https://github.com/tracyzg1818/Q-A-Website-Crawler-Analysis/blob/master/Analysis/follower_answer_clustering.png?raw=true)
+<p align="center">
+  <img src="https://github.com/tracyzg1818/Q-A-Website-Crawler-Analysis/blob/master/Analysis/follower_answer_clustering.png?raw=true" alt="clustering result"/>
+</p>
 
 ## Text Analysis
 For the text analysis part, I used Jieba to tokenize headline text and count the frequencies. Location, school, major, and industry were also counted to have an overview of the users. Here're some interesting findings.
 
-![Headline frequency counts](https://github.com/tracyzg1818/Q-A-Website-Crawler-Analysis/blob/master/Analysis/headline_analysis_result.png?raw=true)
+<p align="center">
+  <img src="https://github.com/tracyzg1818/Q-A-Website-Crawler-Analysis/blob/master/Analysis/headline_analysis_result.png?raw=true" alt="clustering result"/>
+</p>
 
-![User major counts](https://github.com/tracyzg1818/Q-A-Website-Crawler-Analysis/blob/master/Analysis/User_major_counts.png?raw=true)
+<p align="center">
+  <img src="https://github.com/tracyzg1818/Q-A-Website-Crawler-Analysis/blob/master/Analysis/User_major_counts.png?raw=true" alt="clustering result"/>
+</p>
 
-![User industry counts](https://github.com/tracyzg1818/Q-A-Website-Crawler-Analysis/blob/master/Analysis/User_industry_counts.png?raw=true)
-
+<p align="center">
+  <img src="https://github.com/tracyzg1818/Q-A-Website-Crawler-Analysis/blob/master/Analysis/User_industry_counts.png?raw=true" alt="clustering result"/>
+</p>
 
 ## Potential Improvements for the Project
 The project was conducted in Apr 2019 at a rapid pace. Improvements in data volume and analysis method could be made to refine the project and may extract more insights.
